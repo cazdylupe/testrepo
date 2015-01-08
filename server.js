@@ -1,5 +1,6 @@
 /*
- * Testing Node request Module
+ * Testing Node request Module.
+ * @Author Raj Narayanan
  */
 var request = require('request');
 request('http://www.google.com', function (error, response, body) {
